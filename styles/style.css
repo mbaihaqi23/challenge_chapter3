@@ -219,16 +219,16 @@ h1.main-title {
   color: #F0AD45;
 }
 
-#top-scores {
+/*#top-scores {
   height: 100vh;
   /* position: relative; */
   background-image: url('../assets/top-score-bg.png');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+}*/
 
-/* #top-scores::before {
+ #top-scores::before {
   content: '';
   position: absolute;
   top: 0px;
@@ -240,7 +240,7 @@ h1.main-title {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 75%;
-} */
+} 
 
 .top-scores-left {
   margin-top: 300px;
@@ -260,6 +260,7 @@ h1.top-scores-title {
 
 .card-container {
   margin-top: 30px;
+  padding-bottom: 50px;
 }
 
 .card {
